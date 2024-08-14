@@ -1,0 +1,7 @@
+a.{$MY_DOMAIN} {
+    reverse_proxy whoami:80
+}
+
+b.{$MY_DOMAIN} {
+    reverse_proxy whoami:80
+}
